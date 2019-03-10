@@ -1,0 +1,43 @@
+*** Instructions to execute the Code *** 
+
+Please install the following before proceeding 
+
+1.scipy
+2.scikit-image
+3.opencv 3.4.1.15
+4.numpy
+5.pyPyrTools.
+6.Python 2.7 (Python3 not compatible)
+
+https://github.com/LabForComputationalVision/pyPyrTools
+
+
+Note: *** The code can be run on Ubuntu 16.04 or 18.04 only *** 
+
+
+Execution: 
+
+
+1.The outputs have been obtained for 4-videos at 2 different cutoff frequencies for each particular video. There is also one more implementation of live video magnification.
+
+2.The Ideal folder contains the code and output videos for each. If you want to test the code on more sample videos, please visit the link http://people.csail.mit.edu/mrub/evm/#code. It contains all the vidoes used in the data section. 
+
+3.The butterWorth folder contains a similar implementation using the butterworth bandpass filter applied to subsequent frames. 
+
+4.The live video magnification can be run directly, however requires access to the inbuilt webcam of the system. Please ensure the necessary permissions have been granted. The speed of live magnification depends on the performance of the system. Currently the code runs at 10fps.
+
+5.While executing the ideal bandpass code, please ensure to restart the kernel before re-executing the program.
+
+6.While executing live video magnification, please set the fps according to the value that is printed on the screen. It should approximately be equal to that value. 
+
+7. If you wish to change the number of frames in the butterworth execution change the value of 'end' 
+
+8. In the ideal case please choose the parameters in the beginning of the code. 
+
+
+*** In case an error is obtained in the execution of my code in the form img == None or filt == None from pyPyrTools, please navigate to the pyPyrTools directory and edit the pyPyrTools.py file removing this particular line.  
+
+*** 
+
+*** The code is in working condition please contact me in case any issues *** 
+
